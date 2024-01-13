@@ -1,4 +1,4 @@
-# 🔄 Check Approve Status
+# 🔍 Check Approve Status
 
 ## Introduction
 
@@ -12,25 +12,25 @@ The primary purpose of the `checkApproveStatus` function is to provide informati
 
 To utilize the `checkApproveStatus` function effectively, users need to consider the following parameters:
 
-- `user_address`: The Ethereum address of the user's wallet.
-- `router_address`: The address of the Facet Goerli Router.
+* `user_address`: The Ethereum address of the user's wallet.
+* `router_address`: The address of the Facet Goerli Router.
 
 ### Endpoint
 
-- **Endpoint**: `POST https://goerli-api.facet.org/contracts/pairs_for_router`
-- **Query Parameters**:
-  - `user_address`: Ethereum address of the user's wallet.
-  - `router`: Address of the Facet Goerli Router.
+* **Endpoint**: `POST https://goerli-api.facet.org/contracts/pairs_for_router`
+* **Query Parameters**:
+  * `user_address`: Ethereum address of the user's wallet.
+  * `router`: Address of the Facet Goerli Router.
 
 ## Response
 
 The response from the `checkApproveStatus` function includes details about various liquidity pools, such as:
 
-- Token information (address, name, symbol) for token0 and token1 in the pool.
-- Liquidity pool reserves for both tokens.
-- Total Value Locked (TVL) in Wrapped Ether (WETH).
-- User balances for LP, token0, and token1.
-- User allowances for LP, token0, and token1.
+* Token information (address, name, symbol) for token0 and token1 in the pool.
+* Liquidity pool reserves for both tokens.
+* Total Value Locked (TVL) in Wrapped Ether (WETH).
+* User balances for LP, token0, and token1.
+* User allowances for LP, token0, and token1.
 
 ### Example Response
 
@@ -50,31 +50,18 @@ The response from the `checkApproveStatus` function includes details about vario
     }
 }
 ```
-<h2>Understanding User Allowances</h2>
-<p>
-  The <code>user_allowances</code> section in the response indicates the approval status. 
-  If the value is <code>0</code>, it means the token transfer is not approved (❌). 
-  If the value is a specific number, the transfer is approved (✅).
-</p>
-<p>
-  Ensure that the necessary approvals are in place before proceeding with transactions.
-</p>
 
-<p>
-  For Facet API documentation, you can also perform token approval transactions using the provided 
-  <code>handleApproveTokenTransaction</code> function. The endpoint for simulating this transaction is:
-</p>
+## Understanding User Allowances
 
-<ul>
-  <li><strong>Endpoint:</strong> <code>POST https://goerli-api.facet.org/contracts/simulate</code></li>
-  <li><strong>Query Parameters:</strong></li>
-  <ul>
-    <li><code>from:</code> Ethereum address of the user's wallet.</li>
-  </ul>
-</ul>
+The `user_allowances` section in the response indicates the approval status. If the value is `0`, it means the token transfer is not approved (❌). If the value is a specific number, the transfer is approved (✅).
 
-<p>
-  Feel free to explore other functionalities provided by the Sniper Facet Bot in the 
-  <a href="link-to-main-doc">main documentation</a>.
-</p>
+Ensure that the necessary approvals are in place before proceeding with transactions.
 
+For Facet API documentation, you can also perform token approval transactions using the provided `handleApproveTokenTransaction` function. The endpoint for simulating this transaction is:
+
+* **Endpoint:** `POST https://goerli-api.facet.org/contracts/simulate`
+* **Query Parameters:**
+*
+  * `from:` Ethereum address of the user's wallet.
+
+Feel free to explore other functionalities provided by the Sniper Facet Bot in the [main documentation](link-to-main-doc/).
