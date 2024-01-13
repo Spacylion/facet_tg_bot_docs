@@ -13,5 +13,5 @@
 * [Facet API Documentation](facet-api-documentation/README.md)
   * [Check Approval Status](facet-api-documentation/check-approval-status.md)
 * [Terms of Use](terms-of-use/README.md)
-  * [Terms & Conditions](terms-of-use/terms-and-conditions.md)
+  * [📃 Terms & Conditions](terms-of-use/terms-and-conditions.md)
 * [About Page](about-page.md)
