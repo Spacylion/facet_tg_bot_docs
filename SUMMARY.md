@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Getting start](README.md)
+* [Sniper Bot Functions](sniper-bot-functions/README.md)
+  * [💼 Generate New Wallet](sniper-bot-functions/generate-new-wallet.md)
+  * [💎 Bridge ETH-FETH](sniper-bot-functions/bridge-eth-feth.md)
+  * [💸 Buy / Sell Token](sniper-bot-functions/buy-sell-token/README.md)
+    * [😏 Smart Slippage](sniper-bot-functions/buy-sell-token/smart-slippage.md)
+    * [🔍 Check Users Balance](sniper-bot-functions/buy-sell-token/check-users-balance.md)
+  * [✅ Approve Token](sniper-bot-functions/approve-token/README.md)
+    * [🔍 Check Approve Status](sniper-bot-functions/approve-token/check-approve-status.md)
+  * [🛒 Withdraw Process Flow](sniper-bot-functions/withdraw-process-flow.md)
+* [Facet API Documentation](facet-api-documentation.md)
+* [Terms of Use](terms-of-use/README.md)
+  * [Terms & Conditions](terms-of-use/terms-and-conditions.md)
+* [About Page](about-page.md)
