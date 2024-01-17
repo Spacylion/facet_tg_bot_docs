@@ -18,6 +18,8 @@
 
 ## Group 1
 
-* [Page](group-1/page/README.md)
-  * [⚗ Alchemy](group-1/page/terms-of-use/README.md)
-    * [📃 ETH and FETH Fetching:](group-1/page/terms-of-use/terms-and-conditions.md)
+* [Database](group-1/database/README.md)
+  * [PostgreSQL](group-1/database/postgresql.md)
+  * [AWS KMS](group-1/database/aws-kms.md)
+* [⚗ Alchemy](group-1/terms-of-use/README.md)
+  * [📃 ETH and FETH Fetching:](group-1/terms-of-use/terms-and-conditions.md)

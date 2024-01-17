@@ -1,4 +1,4 @@
-# Terms & Conditions
+# 📃 Terms & Conditions
 
 @snipe is a Telegram bot designed to simplify the user experience with the Facet ecosystem through Facet Swap. It assists in creating wallets, managing ETH-FETH conversions, and swapping tokens. The bot enhances UX by making it easy to bridge into FETH and start swapping Facet token
 
