@@ -13,6 +13,7 @@
     * [🔍 Check Approve Status](sniper-bot-functions/approve-token/check-approve-status.md)
   * [🛒 Withdraw Process Flow](sniper-bot-functions/withdraw-process-flow.md)
 * [Facet API Documentation](facet-api-documentation/README.md)
+  * [Dumb swap](facet-api-documentation/dumb-swap.md)
   * [Check Approval Status](facet-api-documentation/check-approval-status.md)
 * [Terms of Use](terms-of-use/README.md)
   * [📃 Terms & Conditions](terms-of-use/terms-and-conditions.md)
