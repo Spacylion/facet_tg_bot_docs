@@ -14,8 +14,7 @@ description: >-
 Example:
 
 ```
-import UpdatePersonPortfolioController from './path/to/UpdatePersonPortfolio.controller';
-const updatedTokenData = await UpdatePersonPortfolioController.addOrUpdateTokenInPortfolio(personId, tokenData);
+await UpdatePersonPortfolioController.addOrUpdateTokenInPortfolio(personId, tokenData);
 ```
 
 2. Referral Link Generation Users can generate a unique referral link using the CreateReferralController. If the user does not have an existing referral link, a new one is created, and the referral data is stored in the database.
@@ -23,8 +22,7 @@ const updatedTokenData = await UpdatePersonPortfolioController.addOrUpdateTokenI
 Example:
 
 ```
-import CreateReferralController from './path/to/CreateReferral.controller';
-const { referralLink } = await CreateReferralController.createReferralLink(personId, entryLink);
+await CreateReferralController.createReferralLink(personId, entryLink);
 ```
 
 ### 3. Referral Display
@@ -34,9 +32,7 @@ The referralDisplay function is responsible for presenting referral statistics t
 Example:
 
 ```
-import { MyContext } from './path/to/MyContext';
-import { referralDisplay } from './path/to/referralDisplay';
-const referralStats = await referralDisplay(ctx as MyContext);
+await referralDisplay(ctx as MyContext);
 ```
 
 ### 4. Reward Claiming
@@ -46,8 +42,6 @@ Users can claim their referral rewards by executing the handleClaim function. Th
 Example:
 
 ```
-import { MyContext } from './path/to/MyContext';
-import { handleClaim } from './path/to/handleClaim';
 await handleClaim(ctx as MyContext);
 ```
 
@@ -58,9 +52,7 @@ The actual transfer of FETH to the user's wallet is facilitated by the transferF
 Example:
 
 ```
-import { MyContext } from './path/to/MyContext';
-import { transferFromTelelabsToPerson } from './path/to/transferFromTelelabsToPerson';
-const transferredAmount = await transferFromTelelabsToPerson(ctx as MyContext, walletAddress, personId);
+await transferFromTelelabsToPerson(ctx as MyContext, walletAddress, personId);
 ```
 
 ## Technical Flow of Referral System on Facet Protocol
