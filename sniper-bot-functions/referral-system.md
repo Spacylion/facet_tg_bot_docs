@@ -69,17 +69,17 @@ Our Telegram trading bot on the Facet protocol incorporates a robust referral sy
 
 2.1 CreateReferralController Manages the creation and validation of referral links, playing a pivotal role in maintaining the integrity of our referral system.
 
-\###3. Database Interaction 3.1 GetReferralController Retrieves referral-related data from the database for dynamic display, providing users with real-time referral statistics.
+#### 3. Database Interaction
+
+#### 3.1 GetReferralController Retrieves referral-related data from the database for dynamic display, providing users with real-time referral statistics.
 
 3.2 GetRewardController Fetches reward-related information from the database, offering users insights into their earned rewards.
 
 3.3 UpdateReferralController Updates critical referral data, such as the last claim amount, ensuring the accuracy of user-specific referral information.
 
-### 4. Telegram Bot Integration
-
 Our system seamlessly integrates with the Telegram bot platform for efficient communication with users.
 
-### 5. Eth Transactions for Reward Transfer
+### 4. Eth Transactions for Reward Transfer
 
 Initiates Ethereum transactions using the createEthTxReward function for smooth reward transfers.
 
