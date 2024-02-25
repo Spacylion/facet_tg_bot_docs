@@ -2,7 +2,6 @@
 
 * [Getting start](README.md)
 * [Sniper Bot Functions](sniper-bot-functions/README.md)
-  * [💼 Generate New Wallet](sniper-bot-functions/generate-new-wallet.md)
   * [💎 Bridge ETH-FETH](sniper-bot-functions/bridge-eth-feth.md)
   * [💸 Buy / Sell Token](sniper-bot-functions/buy-sell-token/README.md)
     * [Buy token](sniper-bot-functions/buy-sell-token/buy-token.md)
@@ -25,5 +24,5 @@
 * [Database](group-1/database/README.md)
   * [PostgreSQL](group-1/database/postgresql.md)
   * [AWS KMS](group-1/database/aws-kms.md)
-* [⚗ Alchemy](group-1/terms-of-use/README.md)
+* [⚗️ Alchemy](group-1/terms-of-use/README.md)
   * [📃 ETH and FETH Fetching:](group-1/terms-of-use/terms-and-conditions.md)
